@@ -1,3 +1,8 @@
+:root{
+    --font: "Jost";
+}
+
+
 html, body{
     margin: 0;
     padding: 0;
@@ -78,7 +83,7 @@ p{
     outline: none;
 
     color: rgb(4, 38, 66);
-    font-family: 'Jost', sans-serif;
+    font-family: var(--font);
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -94,7 +99,7 @@ p{
     outline: none;
 
     color: rgba(98, 105, 116, 1);
-    font-family: "Jost";
+     font-family: var(--font);
     font-style: Regular;
     font-size: 15px;
     font-weight: 400;
@@ -151,7 +156,7 @@ p{
 
 .navbar_frame .box_info_box span{
 color: rgba(255, 255, 255, 1);
-font-family: "Jost";
+ font-family: var(--font);
 font-style: Regular;
 font-size: 15px;
 font-weight: 400;
@@ -161,7 +166,7 @@ text-align: left;
 }
 .navbar_frame .box_info_box strong{
 color: rgba(255, 255, 255, 1);
-font-family: "Jost";
+ font-family: var(--font);
 font-style: Regular;
 font-size: 15px;
 font-weight: 500;
@@ -193,7 +198,7 @@ text-align: left;
     background: rgba(245, 195, 75, 1);
 
     color: rgba(11, 30, 64);
-    font-family: "jost";
+    font-family: var(--font);
     font-style: Regular;
     font-size: 8px;
     font-weight: 700;
@@ -236,7 +241,7 @@ text-align: left;
 .navbar_frame .browse_box span{
     margin-left: 10px;
     color: rgba(255, 255, 255, 255);
-    font-family: "jost";
+     font-family: var(--font);
     font-style: Regular;
     font-size: 16px;
     font-weight: 400;
@@ -254,7 +259,7 @@ text-align: left;
 
 .navbar_frame .navbar_route_menu a{
 margin-right: 10px;
-font-family: "Jost";
+ font-family: var(--font);
 font-size: 16px;
 font-weight: 500;
 color :#fff;
@@ -267,7 +272,7 @@ color :#fff;
 .navbar_frame .sorting_menu span{
     margin-left: 10px;
     color: rgba(255, 255, 255, 255);
-    font-family: "jost";
+     font-family: var(--font);
     font-size: 16px;
     font-weight: 400;
 }
@@ -289,7 +294,7 @@ color :#fff;
 .footer_spec_title{
     display: block;
     margin-bottom: 30px;
-    font-family: "Jost";
+     font-family: var(--font);
     font-style: normal;
     font-size: 18px;
     font-weight: 500;
@@ -340,7 +345,7 @@ color :#fff;
 .footer_frame .footer_contact_main div strong{
     
 
-    font-family: "Jost";
+   font-family: var(--font);
     font-style: Normal;
     font-size: 15px;
     font-weight: 500;   
@@ -350,7 +355,7 @@ color :#fff;
 
 .footer_frame .footer_contact_main div span{
     margin-top: 10px;
-    font-family: "Jost";
+     font-family: var(--font);
     font-style: Normal;
     font-size: 15px;
     font-weight: 400;
@@ -366,7 +371,7 @@ color :#fff;
 
 .footer_frame .footer_support_box a{
     
-    font-family: "Jost";
+     font-family: var(--font);
     font-style: Normal;
     font-size: 14px;
     font-weight: 400;
@@ -410,7 +415,7 @@ color :#fff;
 
  .footer_frame .mobile_app_box span{
     margin-left: 2 0px;
-    font-family: "Jost";
+     font-family: var(--font);
     font-style: Regular;
     font-size: 14px;
     font-weight: 400;
@@ -452,7 +457,7 @@ color :#fff;
 
  .footer_frame .footer_bottom_left span{
     margin-right: 60px ;
-    font-family: "Jost";
+     font-family: var(--font);
     font-style: Normal;
     font-size: 14px;
     font-weight: 400;
@@ -488,7 +493,7 @@ color :#fff;
 
  .footer_frame .footer_select_box span{
     color: rgba(98, 105, 116, 1);
-    font-family: "Jost";
+     font-family: var(--font);
     font-style: Regular;
     font-size: 14px;
     font-weight: 400;
