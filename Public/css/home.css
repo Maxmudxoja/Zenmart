@@ -1,5 +1,4 @@
 .home_page{
-    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
 }
@@ -804,7 +803,7 @@
     justify-content: center;
     align-items: center;
 }
-
+ /*Event Frame*/
 .home_page .event_frame{
     position: relative;
     margin-top: 90px;
@@ -814,8 +813,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    background-size: cover;
     background-image: url("../images/icons/event_bg.png")
+
 }
 
 
@@ -939,5 +939,4 @@
     align-items: center;
     justify-content: center;
 }
-
 
